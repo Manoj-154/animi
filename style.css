@@ -1,0 +1,62 @@
+body{
+    background-color:black;
+    color:white;
+}
+.container{
+   width:1000px;
+   height:500px;
+}
+#heading{
+    width:750px;
+    height:auto;
+    background-color: brown;
+    text-align: center;
+    padding:50px;
+    border-radius: 0px 15px 15px 0px;
+    margin-top: 0px ;
+    margin-left: 0px;
+}
+.forms{
+    
+    width:700px;
+    height:550px;
+    margin-left: 150px;
+    position:relative;
+}
+.f1{
+    font-size: 20px;
+    text-align: left;
+}
+.f2{
+    position:absolute;
+    left:650px;
+    top:60px;
+}
+#nameTextBox, #countryTextBox, #noOfEpisodeTextBox, #yourRatingTextBox, #awardsTextBox, #descriptionTextBox{
+    border: 2px solid brown;
+    width:500px;
+    height:50px;
+    border-radius: 5px;
+    color:white;
+    background-color: grey;
+}
+#descriptionTextBox{
+    border: 2px solid brown;
+    width:500px;
+    height:130px;
+    border-radius: 5px;
+    color:white;
+    background-color: grey;
+}
+
+button{
+    border: 2px solid brown;
+    width:125px;
+    height: 45px;
+    border-radius: 10px;
+    position:absolute;
+    left:180px;
+    top:225px;
+    color:white;
+    background-color: grey;    
+}
